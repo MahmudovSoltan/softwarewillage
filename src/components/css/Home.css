@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.home-top{
+    background: #F9F9FC;
+    position: relative;
+    padding-bottom: 30px;
+}
+.home-top > div{
+    display: flex;
+    align-items: center;
+}
+.home-top-right{
+    margin-left: 80px;
+}
+.home-top-right > h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+margin-bottom: 30px;
+text-align: left;
+
+}
+.home-top-right > p{
+width: 485px;
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 30px;
+color:rgba(24, 24, 24, 1);
+}
+.home-btn{
+top: 460px;
+left: 380px;
+padding: 14px 16px 14px 16px;
+gap: 5px;
+border-radius: 12px;
+border: 1px  solid rgba(0, 80, 146, 1);
+margin-left: 5px;
+color:rgba(0, 80, 146, 1) ;
+cursor: pointer;
+
+}
+.home-top-item{
+display: flex;
+align-items: center;
+gap: 20px;
+width: 279.68px;
+height: 120px;
+top: 632px;
+left: 120px;
+border-radius: 17px;
+border: 3px solid rgba(0, 80, 146, 1);
+background-color: white;
+transition: 0.3s ease-in-out;
+
+}
+.home-top-item:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(176, 201, 222);
+   transform: scale(1.01);
+}
+.cap{
+display: flex;
+align-items: center;
+justify-content: center;
+ width: 77px;
+height: 77px;
+ margin-left: 20px;
+border-radius: 50px;
+background: rgba(0, 80, 146, 1);
+
+}
+.student{
+display: flex;
+align-items: center;
+justify-content: center;
+ width: 77px;
+height: 77px;
+ margin-left: 20px;
+border-radius: 50px;
+background: rgba(33, 150, 243, 1);
+
+
+}
+.video{
+display: flex;
+align-items: center;
+justify-content: center;
+ width: 77px;
+height: 77px;
+ margin-left: 20px;
+border-radius: 50px;
+background: black;
+
+}
+.users{
+display: flex;
+align-items: center;
+justify-content: center;
+ width: 77px;
+height: 77px;
+ margin-left: 20px;
+border-radius: 50px;
+background: rgba(90, 33, 201, 1);
+
+
+}
+
+.home-item-titel{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.0075em;
+text-align: left;
+
+}
+.home-item-text{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+.home-top-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 10%;
+    bottom: -70px;
+}
+.oure-courses{
+    margin-top: 100px;
+    border-radius: 0px 100px 0px 100px;
+    background: rgba(235, 235, 245, 0.3);
+    padding: 50px 0px 30px;
+
+}
+.courses-title{
+    display: flex;
+    justify-content: space-between;
+}
+.courses-title h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 45.96px;
+
+}
+.courses-title > h2 > span{
+    color: #42AAFF;
+}
+.bootcamp-link{
+font-size: 22px;
+font-weight: 600;
+line-height: 16px;
+color: #1E1E1E;
+
+}
+.corses-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.courses-card{
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+.courses-img > img{
+    border-radius: 30px 30px 0px 0px;
+}
+.courses-card-bottom{
+    padding: 30px;
+}
+.card-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background: #42AAFF;
+    color: #FFFFFF;
+
+}
+.card-bottom-date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.card-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+color: #1F1F39;
+}
+.courses-card-bottom > h3 {
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+color: #06241B;
+margin-bottom: 30px;
+}
+.card-bottom-instractr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card-bottom-instractr > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-bottom-instractr > button{
+    width: 131px;
+height: 35px;
+border-radius: 17.5px ;
+background: #005092;
+border: none;
+color: #FFFFFF;
+
+}
