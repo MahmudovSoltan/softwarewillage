@@ -111,7 +111,7 @@ function Home() {
         <div className='courses-title'>
           <h2>Ən <span>məhşur kurslarımız</span></h2>
           <p>
-       <Link className='bootcamp-link'>kursları araşdırın</Link>
+       <Link to="bootcamp" className='bootcamp-link'>kursları araşdırın</Link>
        <img src={icon}/>
           </p>
         </div>

@@ -8,6 +8,7 @@ import Blog from './components/Pages/Blog';
 import Header from './components/leyout/Header';
 import Home from './components/Pages/Home';
 import Footer from './components/leyout/Footer';
+import Boootcamp from './components/Pages/Boootcamp';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="tedris" element={<Tedris />} />
       <Route path="karyera" element={<Karyera />} />
       <Route path="blog" element={<Blog />} />
+      <Route path='bootcamp' element = {<Boootcamp/>}/>
     </Routes>
     <Footer/>
     </>
