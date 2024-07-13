@@ -7,6 +7,7 @@ import Karyera from './components/Pages/Karyera';
 import Blog from './components/Pages/Blog';
 import Header from './components/leyout/Header';
 import Home from './components/Pages/Home';
+import Footer from './components/leyout/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="karyera" element={<Karyera />} />
       <Route path="blog" element={<Blog />} />
     </Routes>
+    <Footer/>
     </>
   );
 }

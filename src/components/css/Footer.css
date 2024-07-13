@@ -1,0 +1,37 @@
+.section-ask-us{
+   
+    padding: 30px 0px 50px;
+    background: #F9F9FC;
+
+
+}
+.ask-us{
+    display: flex;
+    justify-content: space-between;
+}
+.ask-us-left > h2{  
+font-size: 40px;
+font-weight: 700;
+line-height: 45.96px;
+text-align: left;
+
+}
+.ask-us-left > h2 > span{
+    color: #42AAFF;
+}
+.ask-us-left > p{
+    margin: 30px 0px;
+    width: 486px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #1E1E1E;
+    
+}
+input{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #005092;
+}
