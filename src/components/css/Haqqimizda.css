@@ -1,0 +1,211 @@
+.haqqimizda-img{
+    background-color: #64B9FF;
+}
+.haqqimizda-img > img{
+    width: 100%;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #F9F9FC;
+}
+.about-ul{
+    display: flex;
+    align-items: center;    
+}
+.about-ul-li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+
+}
+.about-ul-li-link{
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+color: #005092;
+}
+.link-blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+height: 80px;
+border-radius: 12px;
+background: #005092;
+color: #F9F9FC;
+
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.about-content > p{
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+
+}
+.about-content > p >span{
+    color: #005092;
+}
+.content-items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.content-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-item > h5{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    color: #005092;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+.content-item >p{
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-align: center;
+
+}
+.content-header{
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+margin-top: 100px;
+
+}
+.content-header >span{
+    color: #005092;
+}
+.content-text{
+    text-align: end;
+}
+.content-text > h3{
+font-size: 32px;
+font-weight: 700;
+line-height: 36.77px;
+text-align: end;
+color: #4E67B9;
+margin-bottom: 30px;
+}
+
+.text-left{
+    text-align: left !important;
+}
+.content-text{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+
+}
+.education-model-items{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.education-number{
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+.education-model-left >div >div > h4{
+font-size: 20px;
+font-weight: 700;
+line-height: 22.98px;
+text-align: left;
+color: #4E67B9;
+margin-bottom: 15px;
+
+}
+.education-model-left >div >div > p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+color: #181818;
+}
+.education-item{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.education-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+}
+.education-bottom-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.education-bottom-item > h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 27.58px;
+text-align: left;
+color: #4E67B9;
+}
+.education-bottom-item > p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #181818;
+
+}
+.lorem-ipsum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.lorem-box{
+width: 384px;
+height: 233px;
+background: #D9D9D9;
+}
+.lorem-text >h3{
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+margin-bottom: 50px;
+color: black;
+}
+.lorem-text > p{
+    width: 790px;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #1E1E1E;
+}
+.text-dark{
+    color: #181818 !important;
+}
