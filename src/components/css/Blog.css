@@ -1,0 +1,29 @@
+.blog{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 532px;
+    background-image: url(../imge/blogImg.png);
+    background-size: cover;
+    background-position: center;
+}
+.blog::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 185, 255, 0.5);
+    backdrop-filter: blur(50%);
+}
+.blog > h2{
+    width: 496px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.54px;
+    color: rgba(0, 80, 146, 1);
+    margin-left: 110px;
+    opacity: 100%;
+}
