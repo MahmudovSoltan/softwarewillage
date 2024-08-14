@@ -429,7 +429,7 @@ function Home() {
 
         <div className='our-articles-title'>
         <h2>
-        Bizim <span>əməkdaşlar</span>
+        Bizim <span>əməkdaşlar 1234</span>
         </h2>
       </div>
       <div className='our-contacts'>
@@ -444,6 +444,9 @@ function Home() {
       </div>
 
      </section>
+     <div>
+      
+     </div>
     </div>
   )
 }
